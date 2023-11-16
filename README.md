@@ -8,4 +8,10 @@ To get git status and see what is modified:
 To commit:
     git commit -a -m "initialize readme"
 
+Always do git pull origin NAMEOFMASTERBRANCH (probably main or master)
+    git pull origin main
+
+Always work on your own branch and then push
+
+
 
