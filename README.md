@@ -2,11 +2,11 @@
 Place to add code and push request, edit code
 
 
-GIT SYNTAX:
+# GIT SYNTAX:
 To get git status and see what is modified:
     git status
 
-To commit:
+# To commit:
     git commit -a -m "initialize readme"
-    
+
 
