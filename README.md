@@ -11,7 +11,8 @@ To commit:
 Always do git pull origin NAMEOFMASTERBRANCH (probably main or master)
     `git pull origin main`
 
-Always work on your own branch and then push
+Always work on your own branch and then push:
+So, to create a new branch enter `git -b checkout [branch]` and This branch only exists on your local machine until you "push it" to the remote server. You can do this by running `git push --set-upstream origin [branch-name]`.
 
 - `git add [file]`: Stages a file for the next commit, marking it as ready to be saved.
 - `git commit -m "message"`: Records the staged changes in a commit along with a descriptive message.
