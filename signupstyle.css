@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('fruitss.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+header {
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color:black;
+    margin-left: 40px;
+}
+
+.navigation .btnLogin-popup {
+    cursor: pointer;
+    color: black;
+    margin-left: 40px;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+input {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
