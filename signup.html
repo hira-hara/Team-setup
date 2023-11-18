@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="signupstyle.css">
+    <link rel="stylesheet" href="signupstyle.css"> 
    </head>
 <body>
     <header>
         <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="example.html"  target="_self">Home</a>
             <a href="#">Profile</a>
             <button class="btnLogin-popup">Sign Up</button>
         </nav>
@@ -17,7 +17,7 @@
     <br>
     <br>
     <br>
-    <div class="wrapper">
+    <div class="wrapper" id="signup_popup">
         <div class="form-box signup">
             <form class="form" action="#" id="signup">
                 <h1 class="form__title">Sign up to start swapping!</h1>
@@ -32,7 +32,7 @@
                     <h4>Enter the number of days since bought</h4>
                     <input id="swap info" type="number" class="form__input" autofocus placeholder="Days since bought">
                     <br>
-                    <input type="submit" value="Submit">
+                    <button id="submit" type="button" type="button">Submit</button>
             <div class="form-box signup">
             </div>
         </form>
