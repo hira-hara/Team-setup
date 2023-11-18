@@ -57,6 +57,18 @@ header {
     align-items: center;
 }
 
+h4 {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+button {
+    display: flex;
+}
+
 input {
     background-color: antiquewhite;
     display: flex;
