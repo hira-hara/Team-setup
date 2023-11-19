@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <script src="signup.js"></script>
-    <link rel="stylesheet" href="signupstyle.css"> 
-   </head>
+    <link rel="stylesheet" href="signupstyle.css">
+</head>
+
 <body>
     <header>
         <nav class="navigation">
@@ -30,42 +32,50 @@
         </nav>
     </header>
 
-    
+
 
     <div class="video-background">
         <video autoplay muted loop id="video-bg">
-        <source src="video1.mp4" type="video/mp4">
+            <source src="video1.mp4" type="video/mp4">
         </video>
-        <h1 id="slogan">Savor the Flavor, Swap with Favor!</h1>
+
+        <h1 id="slogan">
+            <span>Savor the Flavor, Swap with Favor!</span>
+        </h1>
+
     </div>
 
     <br>
     <br>
     <br>
-   
+
     <div class="wrapper">
         <div class="form-box signup">
             <form class="form" action="#" id="signup">
                 <h2 class="form__title">Ready to trade? Place the item!</h2>
                 <!-- Post it, let's trade! -->
-                    <br>
-                    <p>Enter Username</p>
-                    <input id="name" type="text" class="form__input" autofocus placeholder="Username">
-                    <br>
-                    <p>Enter your swap item</p>
-                    <input id="item" type="text" class="form__input" autofocus placeholder="Item Name">
-                    <br>
-                    <p>Send a picture of the item to be swaped</p>
-                    <input id="photo" type="file" name="photo" accept="image/*" placeholder="Photo of item">
-                    <!-- <input type="submit" value="Upload Photo"> -->
-                    <br>
-                    <p>Enter the number of days since the purchase</p>
-                    <input id="swap info" type="number" class="form__input" autofocus placeholder="Number of Days">
-                    <br>
-                    <button id="submit" type="button" type="button">Submit</button>
-            <div class="form-box signup">
-            </div>
-        </form>
-    </div>
+                <br>
+                <p>Enter Username</p>
+                <input id="name" type="text" class="form__input" autofocus placeholder="Username">
+                <br>
+                <p>Enter your swap item</p>
+                <input id="item" type="text" class="form__input" autofocus placeholder="Item Name">
+                <br>
+                <p>Send a picture of the item to be swaped</p>
+                <input id="photo" type="file" name="photo" accept="image/*" placeholder="Photo of item">
+                <br>
+                <p>Enter the number of days since the purchase</p>
+                <input id="swap info" type="number" class="form__input" autofocus placeholder="Number of Days">
+                <br>
+                <button id="submitButton" type="button" type="button">Submit</button>
+                <div class="form-box signup">
+
+
+
+
+                </div>
+            </form>
+        </div>
 </body>
+
 </html>
