@@ -88,7 +88,7 @@ h1 {
 
 
 button {
-    display: inline;
+    display: flex;
     background-color: #dad7cd;
     margin-left: 130px;
     padding: 4px;
