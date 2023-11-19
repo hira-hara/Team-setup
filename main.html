@@ -4,20 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Market Exchange</title>
+    <title>YumTrade - Listings</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <h2>Food Market Exchange</h2>
 
-    <div class="container" style="display:flex;">
-        <div class="leftBox" style="display: inline;">
+    <header>
+        <div class="title">
+            <img src="logo.png" alt="Logo" id="logo">
+            <div id="topHead">
+                <h2 id="company-name">YumTrade</h2>
+                <span id="description">Food Market Exchange</span>
+            </div>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <a href="signup.html" class="previous">&laquo; Previous</a>
+
+
+    <div class="container">
+        <div class="leftBox">
             <label for="sort-options" style="margin-right: 10px; margin-bottom: 20px; ">Sort by:</label>
             <select name="sort-options" id="sort-options">
                 <option value="ratings">Ratings</option>
@@ -25,64 +43,33 @@
                 <option value="products">Available Products</option>
             </select>
 
-            <button id="add-products">+ add products</button>
-            
-            <div class="container" style="display:flex;">
+
+            <button id="add-products">+ add item</button>
+
+            <div class="data">
                 <table class="table">
                     <thead>
-                      <tr>
-                        <th scope="col">Rating</th>
-                        <th scope="col">Username</th>
-                        <th scope="col">Swap Item</th>
-                        <th scope="col">Photo</th>
-                        <th scope="col">Item Info</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">Rating</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Item to Swap</th>
+                            <th scope="col">Photo</th>
+                            <th scope="col">Number of Days</th>
+                        </tr>
                     </thead>
                     <tbody id="user-list"></tbody>
-                  </table>
-                </div>
-<!-- 
-            <div class="componentsLeft" style="display: flex;">
-                <div class="oval">
-                    <div class="product-item oval"></div>
-                    <div class="product-item oval"></div>
-                    <div class="product-item oval"></div>
-                    <div class="product-item oval"></div>
-                    <div class="product-item oval"></div>
-                </div>
-
-                <div class="rect" style="padding-left: 40px; padding-top: 20px;">
-                    <div class="product-item rectangle">
-                        <ul style="font-size: small;">
-                            <li><b>Name:</b></li>
-                            <li><b>Ratings:</b></li>
-                        </ul>
-                    </div>
-                    <div class="product-item rectangle"></div>
-                    <div class="product-item rectangle"></div>
-                    <div class="product-item rectangle"></div>
-                    <div class="product-item rectangle"></div>
-                </div>
+                </table>
             </div>
+
         </div>
 
-    </div> -->
-
+        <div class="map">
+            <div class="google-map">
+                <iframe src="index.html" width="600" height="450" style="border: 0;"></iframe>
+            </div>
+        </div>
     
-
-
-    <input type='text' placeholder='Search Foods', style="margin-left: 550px;">
-
-    <div class="rightBox" style="display: flex;">
-        
-        
-    
-    <img src="https://previews.123rf.com/images/filborg/filborg1512/filborg151200012/50314192-vector-map-template-illustration-simple-flat-city-map.jpg"
-        alt="Map Template">
-
-    </div>
-    </div>
-    <script src="main2.js" type="module"></script> 
-    <script src="index.html"></script>
-</body>
-</html>
+        </div>
+        <script src="main2.js" type="module"></script> 
+    </body>
+    </html>

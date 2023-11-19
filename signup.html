@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>YumTrade - SignUp</title>
     <script src="signup.js"></script>
     <link rel="stylesheet" href="signupstyle.css">
 </head>
@@ -14,7 +14,12 @@
         <nav class="navigation">
             <div class="left-items">
                 <img src="logo.png" alt="Logo" id="logo">
-                <h2 id="company-name">YumTrade</h2>
+                <div id="company-name">
+                    <h2>
+                        YumTrade
+                    </h2>
+                    <span id="description">Food Market Exchange</span>
+                </div>
             </div>
             <div class="right-items">
                 <a href="main.html" target="_self">Home</a>
@@ -52,8 +57,7 @@
     <div class="wrapper">
         <div class="form-box signup">
             <form class="form" action="#" id="signup">
-                <h2 class="form__title">Ready to trade? Place the item!</h2>
-                <!-- Post it, let's trade! -->
+                <h2 class="form__title">Ready to trade? List the item!</h2>
                 <br>
                 <p>Enter Username</p>
                 <input id="name" type="text" class="form__input" autofocus placeholder="Username">
@@ -67,7 +71,6 @@
                 <p>Enter the number of days since the purchase</p>
                 <input id="swapinfo" type="number" class="form__input" autofocus placeholder="Days since bought">
                 <br>
-                <!-- <button id="submitButton" type="button" type="button">Submit</button> -->
             <div class="form-box signup">
             </div>
             <div id="button">
