@@ -4,33 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <script src="signup.js"></script>
     <link rel="stylesheet" href="signupstyle.css"> 
    </head>
 <body>
     <header>
         <nav class="navigation">
-            <a href="example.html"  target="_self">Home</a>
-            <a href="#">Profile</a>
-            <button class="btnLogin-popup">Sign Up</button>
+            <div class="left-items">
+                <img src="logo.png" alt="Logo" id="logo">
+                <h2 id="company-name">YumTrade</h2>
+            </div>
+            <div class="right-items">
+                <a href="main.html" target="_self">Home</a>
+                <a href="#">Profile</a>
+                <button id="signupButton">Sign Up</button>
+                <div id="signupBox" class="hidden">
+                    <form id="signupForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
+
+    
+
+    <div class="video-background">
+        <video autoplay muted loop id="video-bg">
+        <source src="video1.mp4" type="video/mp4">
+        </video>
+        <h1 id="slogan">Savor the Flavor, Swap with Favor!</h1>
+    </div>
+
     <br>
     <br>
     <br>
-    <div class="wrapper" id="signup_popup">
+   
+    <div class="wrapper">
         <div class="form-box signup">
             <form class="form" action="#" id="signup">
-                <h1 class="form__title">Sign up to start swapping!</h1>
+                <h2 class="form__title">Ready to trade? Place the item!</h2>
+                <!-- Post it, let's trade! -->
                     <br>
-                    <h4>Enter Username</h4>
+                    <p>Enter Username</p>
                     <input id="name" type="text" class="form__input" autofocus placeholder="Username">
-                    <h4>Enter your swap item</h4>
-                    <input id="item" type="text" class="form__input" autofocus placeholder="Swap item">
-                    <h4>Send a picture of your swap item</h4>
+                    <br>
+                    <p>Enter your swap item</p>
+                    <input id="item" type="text" class="form__input" autofocus placeholder="Item Name">
+                    <br>
+                    <p>Send a picture of the item to be swaped</p>
                     <input id="photo" type="file" name="photo" accept="image/*" placeholder="Photo of item">
-                    <input type="submit" value="Upload Photo">
-                    <h4>Enter the number of days since bought</h4>
-                    <input id="swap info" type="number" class="form__input" autofocus placeholder="Days since bought">
+                    <!-- <input type="submit" value="Upload Photo"> -->
+                    <br>
+                    <p>Enter the number of days since the purchase</p>
+                    <input id="swap info" type="number" class="form__input" autofocus placeholder="Number of Days">
                     <br>
                     <button id="submit" type="button" type="button">Submit</button>
             <div class="form-box signup">
