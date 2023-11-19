@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7EDE2;
+}
+
+h2 {
+    background-color: #ffe1b1;
+    width: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    /* display: inline-flex; */
+    margin-left: 20px;
+}
+
+#add-products {
+    background-color: #dad7cd;
+    margin-left: 130px;
+}
+#add-products:hover {
+    background-color: #b0b0ae;
+    font-weight: 600;
+    
+
+}
+
+
+.leftBox {
+    background-color: #f5cac3;
+    height: 700px;
+    padding: 30px;
+    text-align: left;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 500px;
+
+
+}
+
+.rightBox {
+    background-color: #f5cac3;
+    height: 400px;
+    padding: 0px;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    /* border-radius: 30px; */
+    box-sizing: border-box;
+    margin-left: 550px;
+    margin-top: 280px;
+    width: 400px;
+    display: inline-flex;
+
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+.product-item.oval {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-top: 25px;
+
+
+}
+
+.product-item.rectangle {
+    width: 280px;
+    height: 90px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    padding: 7px;
+    padding-left: 0px;
+}
+
+.profile-popup {
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20 px;
+}

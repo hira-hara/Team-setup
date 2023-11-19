@@ -5,28 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Market Exchange</title>
-    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
 </head>
-
 <body>
+    
     <h2>Food Market Exchange</h2>
+    <input type='text' placeholder='Search Foods'>
 
-    <div class="container">
-        <div class="leftBox">
-            <i>Based on ratings</i>
-            <div class="publishedItems">
-                
-            
-            </div>
+    <div class="container" style="display:flex;">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Rating</th>
+                <th scope="col">Username</th>
+                <th scope="col">Swap Item</th>
+                <th scope="col">Photo</th>
+                <th scope="col">Item Info</th>
+              </tr>
+            </thead>
+            <tbody id="user-list"></tbody>
+          </table>
         </div>
 
-        <div class="rightBox">
-            <img src="https://previews.123rf.com/images/filborg/filborg1512/filborg151200012/50314192-vector-map-template-illustration-simple-flat-city-map.jpg" alt="Map Template">
-        </div>
-
-        <div class="new">
-        </div>
+    <div class="rightBox" style="display: flex; flex: 3 ;">
+        <img src="https://previews.123rf.com/images/filborg/filborg1512/filborg151200012/50314192-vector-map-template-illustration-simple-flat-city-map.jpg"
+            alt="Map Template">
     </div>
-
+    </div>
+    <script src="main.js" type="module"></script> 
 </body>
 </html>
+
+
