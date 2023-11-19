@@ -47,7 +47,6 @@ header {
     font-size: 15px;
 }
 
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
@@ -141,7 +140,7 @@ body {
     font-size: small;
     padding: 5px 13px;
     border-radius: 10px;
-    margin-left: 50%;
+    margin-left: 80%;
 
 }
 
@@ -151,14 +150,25 @@ body {
 }
 
 
-.table-scroll {
+/* .table-scroll {
     height: 400px;
     overflow-y: auto; 
     border-collapse: collapse; 
     width: 100%; 
+} */
+
+#chat {
+    background-color: #dad7cd;
+    display: inline-block;
+    font-size: small;
+    padding: 5px 13px;
+    border-radius: 10px;
 }
 
-
+#chat:hover {
+    background-color: #b0b0ae;
+    font-weight: 600;
+}
 
 .map {
     position: absolute;
