@@ -116,11 +116,11 @@ body {
 
 .container {
     display: flex;
-    margin-right : 10px;
+    justify-content: space-between; 
 }
 
 .leftBox {
-    background-color: #f85c513d;
+    /* background-color: #f85c513d;
     position: relative;
     height: 700px;
     padding: 30px;
@@ -131,8 +131,22 @@ body {
     border-radius: 30px;
     box-sizing: content-box;
     width: 500px;
-    
-    /* display: inline; */
+    width: calc(50% - 20px); /* Adjust width here 
+    margin-right: 20px;
+    display: inline; */
+
+    background-color: #f85c513d;
+    position: relative;
+    padding: 30px;
+    text-align: left;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    box-sizing: content-box;
+    width: calc(50% - 20px); /* Adjust width here */
+    margin-right: 20px; /* Add some margin for spacing */
+
 }
 
 
@@ -154,7 +168,12 @@ body {
 
 .data {}
 
-.table {}
+.table-scroll {
+    height: 400px;
+    overflow-y: auto; 
+    border-collapse: collapse; 
+    width: 100%; 
+}
 
 
 .map {
@@ -182,9 +201,8 @@ body {
 
 } */
 
+
 .google-map {
-    /* padding-bottom: 50%; */
-    /* padding-block: 100px; */
     position: relative;
 }
 
@@ -192,5 +210,5 @@ body {
     display: inline-block; 
     width: 700px;
     height:800px;
-
 }
+

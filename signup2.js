@@ -41,3 +41,12 @@ function inputs() {
 }
 
 inputs();
+
+document.getElementById("signupButton").addEventListener("click", function() {
+  var wrapper = document.querySelector(".wrapper");
+  wrapper.classList.add("shake");
+
+  setTimeout(function() {
+      wrapper.classList.remove("shake");
+  }, 1000);
+});
