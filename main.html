@@ -43,7 +43,7 @@
                 <option value="products">Available Products</option>
             </select>
 
-
+            <button id="chat">Go to chat</button>
             <button id="add-products">+ add item</button>
 
             <div class="data">
@@ -69,8 +69,18 @@
             </div>
         </div>
 
+        <div>
+            <link src="http://localhost:8080/chatindex"> 
+        </div>
+
     </div>
     <script src="main2.js" type="module"></script>
+    <script src="http://localhost:8080/chatindex" ></script> 
+    <script type="text/javascript">
+        document.getElementById("chat").onclick = function () {
+        location.href = "http://localhost:8080/chatindex";
+    };
+    </script> 
 </body>
 
 </html>
